@@ -1,0 +1,37 @@
+{
+	"name": "fastified",
+	"version": "1.0.0",
+	"description": "Example project using fastify",
+	"scripts": {
+		"start": "node src/index",
+		"dev": "nodemon src -w src",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"keywords": [
+		"fastify"
+	],
+	"author": "budhalantara",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"@fastify/cors": "^8.2.0",
+		"@fastify/etag": "^4.2.0",
+		"dotenv": "^16.0.3",
+		"fastify": "^4.13.0",
+		"fastify-plugin": "^4.5.0",
+		"pg": "^8.9.0",
+		"pino": "^8.10.0",
+		"pino-pretty": "^9.3.0",
+		"yup": "^1.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.34.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"nodemon": "^2.0.20",
+		"prettier": "^2.8.4"
+	}
+}
